@@ -102,19 +102,19 @@ wellcomeINSTALL() {
   read n
   if [ "$n" != "" ]; then
     if [ "$n" == "1" ]; then
-      linkd=https://api.github.com/repos/xpanel-cp/XPanel-SSH-User-Management/releases/tags/v3-8-7
+      linkd=https://api.github.com/repos/amna33mcc/manax/releases/tags/v3-8-7
     fi
     if [ "$n" == "2" ]; then
-      linkd=https://api.github.com/repos/xpanel-cp/XPanel-SSH-User-Management/releases/tags/v3-8-6
+      linkd=https://api.github.com/repos/amna33mcc/manax/releases/tags/v3-8-6
     fi
     if [ "$n" == "3" ]; then
-      linkd=https://api.github.com/repos/xpanel-cp/XPanel-SSH-User-Management/releases/tags/v3-8-5
+      linkd=https://api.github.com/repos/amna33mcc/manax/releases/tags/v3-8-5
     fi
     if [ "$n" == "4" ]; then
-      linkd=https://api.github.com/repos/xpanel-cp/XPanel-SSH-User-Management/releases/tags/v3-7-9
+      linkd=https://api.github.com/repos/amna33mcc/manax/releases/tags/v3-7-9
     fi
   else
-    linkd=https://api.github.com/repos/xpanel-cp/XPanel-SSH-User-Management/releases/tags/v3-8-7
+    linkd=https://api.github.com/repos/amna33mcc/manax/releases/tags/v3-8-7
   fi
 }
 userINPU() {
@@ -363,7 +363,7 @@ EOF
     echo -e "\nPlease input UDPGW Port ."
     printf "Default Port is \e[33m${udpport}\e[0m, let it blank to use this Port: "
     read udpport
-    sudo bash -c "$(curl -Ls https://raw.githubusercontent.com/xpanel-cp/Nethogs-Json-main/master/install.sh --ipv4)"
+    sudo bash -c "$(curl -Ls https://raw.githubusercontent.com/amna33mcc/Nethogs-Json-main/master/install.sh --ipv4)"
     git clone https://github.com/ambrop72/badvpn.git /root/badvpn
     mkdir /root/badvpn/badvpn-build
     cd /root/badvpn/badvpn-build
@@ -516,9 +516,9 @@ EOF
     sudo systemctl enable nginx
     sudo systemctl reload nginx
     # Getting Proxy Template
-    sudo wget -q -O /usr/local/bin/wss https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/wss
+    sudo wget -q -O /usr/local/bin/wss https://raw.githubusercontent.com/amna33mcc/manax/master/wss
     sudo chmod +x /usr/local/bin/wss
-    sudo wget -q -O /usr/local/bin/wssd https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/wssd
+    sudo wget -q -O /usr/local/bin/wssd https://raw.githubusercontent.com/amna33mcc/manax/master/wssd
     sudo chmod +x /usr/local/bin/wssd
 
     # Installing Service
@@ -689,8 +689,8 @@ ENDOFFILE
   systemctl restart stunnel4 &
   wait
 
-  curl -o /root/xpanel.sh https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/cli.sh
-  sudo wget -4 -O /usr/local/bin/xpanel https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/cli.sh
+  curl -o /root/xpanel.sh https://raw.githubusercontent.com/amna33mcc/manax/master/cli.sh
+  sudo wget -4 -O /usr/local/bin/xpanel https://raw.githubusercontent.com/amna33mcc/manax/master/cli.sh
   chmod +x /usr/local/bin/xpanel
   chown www-data:www-data /var/www/html/example/
   chown www-data:www-data /var/www/html/example/index.php
