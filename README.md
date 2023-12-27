@@ -92,7 +92,7 @@ SSL بر روی پورتی که روی پنل تعریف کرده اید نصب 
 
 
 
-##playload
+## playload
 payload port 80
 
 GET /ws HTTP/1.1[crlf]Host: sni.domain.com[crlf]User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)[crlf]Accept: text/html[crlf]Connection: keep-alive[crlf]sec-ch-ua: "Chromium";v="120"[crlf]sec-ch-ua-platform: "Windows"[crlf]Accept-Language: en-US[crlf]Accept-Encoding: gzip, deflate, br[crlf]Upgrade: websocket[crlf][crlf]
