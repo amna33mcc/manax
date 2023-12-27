@@ -3,25 +3,9 @@
 <img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/xlogo.png">
 </picture>
   </p> 
-<h1 align="center"/>XPanel</h1>
-<h6 align="center">XPanel SSH User Management<h6>
-<p align="center">
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/xpanel-cp/XPanel-SSH-User-Management/total">
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/xpanel-cp/XPanel-SSH-User-Management">
-<a href="https://t.me/Xpanelssh" target="_blank">
-<img alt="Telegram Channel" src="https://img.shields.io/endpoint?label=Channel&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FXpanelssh&color=blue">
-</a>
-</p>
+<h1 align="center"/>ManaX</h1>
+<h6 align="center">ManaX SSH User Management<h6>
  
-<p align="center">
-	<a href="./README-EN.md">
-	English
-	</a>
-	/
-	<a href="./README.md">
-	فارسی
-	</a>
-</p>
 
 
 ### فهرست
@@ -57,23 +41,9 @@ Websocket SSL Payload<br>
 :green_circle: فیک آدرس (جلوگیری از فیلترینگ) <br>
 :green_circle: محدودیت IP(جلوگیری از ورود کاربران به برخی سایت ها)<br>
 :green_circle: اتصال API<br>
-:green_circle: [مولتی سرور](https://github.com/xpanel-cp/Xcs-Multi-Management-XPanel) <br>
 
-## Telegram Channel:
-https://t.me/Xpanelssh
 
-## حمایت از ما :hearts:
-حمایت های شما برای ما دلگرمی بزرگی است<br> 
-<p align="left">
-<a href="https://plisio.net/donate/KL6W5z8k" target="_blank"><img src="https://plisio.net/img/donate/donate_light_icons_mono.png" alt="Donate Crypto on Plisio" width="240" height="80" /></a><br>
-	
-|                    TRX                   |                       ETH                         |                    Litecoin                       |
-| ---------------------------------------- |:-------------------------------------------------:| -------------------------------------------------:|
-| ```TYQraQ5JJXKyVD6BpTGoDYNhiLbFRfzVtV``` |  ```0x6cc08b2057EfAe4d76Af531e145DeEd4B73c9D7e``` | ```ltc1q6gq4espx74lp6jvhmr0jmxlu4al0uwemmzwdv4``` |	
-
-</p>	
-
-# نصب
+#
 
 
 **سیستم عامل مورد نیاز**
@@ -82,26 +52,26 @@ Ubuntu 18+ (پیشنهادی :Ubuntu 20)<br>
 
 تغییر نام کاربری، کلمه عبور و پورت همچنین حذف XPanel از روی سرور (نسخه 3.6 به بالاتر)
 ```
-bash /root/xpanel.sh OR bash xpanel.sh  OR xpanel
+bash /root/xpanel.sh
 ```
 برای نصب کافیست دستور زیر را وارد کنید<br>
 
 **Nginx Web Server**
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/manax/master/install.sh --ipv4)
 ```
 <br>
 
 **Apache Web Server**
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/apache.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/manax/master/apache.sh --ipv4)
 ```
 
 حل مشکل عدم ارتباط  تماس صوتی و تصویری در اپلیکشن
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/fix-call.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/manax/master/fix-call.sh --ipv4)
 ```
 دستور بالا را در ترمینال وارد کنید سپس برای UDPGW پورت جدید تعریف کنید بهتر است به جای پورت 7300 پورت 7301 یا 7302 را تنظیم کنید
 <br>
@@ -110,11 +80,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Mana
 ## بهینه سازی سرور
 نصب و حذف تنظیمات با دستور زیر 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/TCP-Tweaker --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/manax/master/TCP-Tweaker --ipv4)
 ```
 ## فعال سازی SSL
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/ssl.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/manax/master/ssl.sh --ipv4)
 ```
 با استفاده از دستور بالا می توانید SSL را روی پنل نصب نمائید. به نکات زیر توجه کنید <br>
 1- حتما قبل از نصب SSL پنل را بروز کنید<br>
@@ -125,8 +95,5 @@ SSL بر روی پورتی که روی پنل تعریف کرده اید نصب 
 
 
 
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/xpanel-cp/XPanel-SSH-User-Management.svg)](https://starchart.cc/xpanel-cp/XPanel-SSH-User-Management)
 
 
